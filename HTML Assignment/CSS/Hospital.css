@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#container{
+    border: 2px solid black;
+    width: 1000px;
+}
+#head{
+    display: grid;
+    grid-template-columns: 920px 29px 47px;
+}
+#box1{
+    background-color: #7B435B;
+    color: white;
+    display: flex;
+}
+#namer{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin-left: 12px;
+    margin-top: 5px;
+    border-radius: 80%;
+}
+#box2{
+    background-color: #9FA0C3;
+}
+#box3{
+    background-color:  #AED9E0 ;
+}
+hr{
+    width: 400px;
+}
+.regist1{
+    padding: 15px;
+}
+#registration-id{
+    display: flex;
+
+}
+#registration-id input{
+    width: 20px;
+}
+#date{
+    margin-left: 700px;
+}
+.regist2{
+    display: flex;
+    padding: 15px;
+}
+#dear{
+    max-width: 500px;
+}
+#regist2{
+    margin-left: 200px;
+}
+#manage input{
+    width: 200px;
+}
+#person{
+    margin: 8px;
+}
+#personal-name{
+    padding: 15px;
+}
+#personal-name input{
+    width: 800px;
+}
+#one{
+    display: flex;
+    padding: 15px;
+}
+#two{
+    width: 500px;
+}
+#three{
+    width: 500px;
+    margin-left: 500px;
+}
+#last-set{
+    display: flex;
+    justify-content: center;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+}
+#btn a{
+    background-color: #7B435B;
+    border-radius: 5%;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    margin: 7px;
+}
+#box-1{
+    height: 10px;
+    background-color: #7B435B;
+}
+#box-2{
+    background-color: #9FA0C3;
+}
+#box-3{
+    background-color: #AED9E0;
+}
